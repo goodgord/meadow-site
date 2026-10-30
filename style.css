@@ -35,3 +35,6 @@ h3 { font-size: 13px; font-weight: 500; letter-spacing: 0.06em; text-transform: 
 .art { display: block; width: 100%; height: auto; border-radius: 14px; margin: 0 0 20px; background: var(--bg); }
 .hero { display: block; width: 100%; max-width: 1000px; height: auto; margin: 0 auto; aspect-ratio: 3840 / 1646; }
 .hero + main { padding-top: 24px; }
+.clip { margin: 0 auto 32px; max-width: 280px; }
+.clip video { display: block; width: 100%; height: auto; border-radius: 22px; border: 1px solid var(--line); background: var(--bg); }
+.clip figcaption { color: var(--soft); font-size: 14px; text-align: center; margin-top: 10px; }
