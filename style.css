@@ -24,7 +24,9 @@ a { color: var(--bells); text-decoration: none; }
 a:hover { text-decoration: underline; }
 .lede { color: var(--soft); margin-bottom: 16px; }
 .store { margin: 0 0 32px; }
-.store img { display: block; width: 150px; height: auto; }
+.get { display: inline-block; padding: 10px 20px; border: 1px solid var(--bells); border-radius: 999px; color: var(--bells); font-size: 16px; }
+.get:hover { background: var(--bells); color: var(--bg); text-decoration: none; }
+.clip { aspect-ratio: 1 / 1; margin-bottom: 32px; }
 nav { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--soft); font-size: 15px; }
 nav a { margin-right: 20px; }
 .piece { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--line); }
@@ -35,6 +37,3 @@ h3 { font-size: 13px; font-weight: 500; letter-spacing: 0.06em; text-transform: 
 .art { display: block; width: 100%; height: auto; border-radius: 14px; margin: 0 0 20px; background: var(--bg); }
 .hero { display: block; width: 100%; max-width: 1000px; height: auto; margin: 0 auto; aspect-ratio: 3840 / 1646; }
 .hero + main { padding-top: 24px; }
-.clip { margin: 0 auto 32px; max-width: 280px; }
-.clip video { display: block; width: 100%; height: auto; border-radius: 22px; border: 1px solid var(--line); background: var(--bg); }
-.clip figcaption { color: var(--soft); font-size: 14px; text-align: center; margin-top: 10px; }
