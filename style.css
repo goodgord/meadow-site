@@ -22,7 +22,9 @@ p, li { margin: 0 0 12px; }
 ul { padding-left: 20px; }
 a { color: var(--bells); text-decoration: none; }
 a:hover { text-decoration: underline; }
-.lede { color: var(--soft); margin-bottom: 32px; }
+.lede { color: var(--soft); margin-bottom: 16px; }
+.store { margin: 0 0 32px; }
+.store img { display: block; width: 150px; height: auto; }
 nav { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--soft); font-size: 15px; }
 nav a { margin-right: 20px; }
 .piece { margin-top: 48px; padding-top: 32px; border-top: 1px solid var(--line); }
